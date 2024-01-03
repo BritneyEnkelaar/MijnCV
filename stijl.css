@@ -1,0 +1,280 @@
+/* Stijl Body */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e8e8e8;
+    color: #943B3B;
+    margin: 0;
+    padding: 0;
+}
+
+/* Paragraaf */
+p {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+/* Afbeelding */
+img {
+    margin-top: 20px;
+}
+
+/* H1 en H2 */
+h1 {
+    font-family: Raleway, Arial, sans-serif;
+}
+
+h2 {
+    font-family: Raleway, Arial, sans-serif;
+    background-color: #943B3B;
+    color: #ffffff;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+caption {
+    font-family: Raleway, Arial, sans-serif;
+    background-color: #943B3B;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+}
+
+
+/* Formulier */
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form h2 {
+    margin-bottom: 20px;
+    font-family: Raleway, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #943B3B;
+}
+
+input, textarea, button {
+    display: block;
+    width: 90%;
+    background-color: #e9e9e9;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #943B3B;
+    color: #ffffff;
+    width: 96%;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #C77777;
+}
+
+input[type="submit"] {
+    background-color: #943B3B;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+ 
+ input[type="submit"]:hover {
+    background-color: #943B3B;
+ }
+ 
+ input:focus,
+ textarea:focus {
+    border: 3px solid #943B3B;
+    background-color: #C77777;
+    outline: none;
+ }
+
+/* Header */
+header {
+    background-color: #943B3B;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Keuze menu */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    height: 20px;
+    width: 520px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: #C77777;
+    font-family: 'Arial', sans-serif;
+}
+
+li:hover {
+    background-color: #943B3B;
+    color: #C77777;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #C77777;
+}
+
+/* Tabel */
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin: 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffffff;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Cellen */
+#cel1 {
+    background-color: #943B3B;
+    color: #ffffff;
+}
+
+#cel2 {
+    background-color: #e9e9e9;
+    color: #943B3B;
+}
+
+#cel3 {
+    background-color: #C77777;
+    color: #ffffff;
+}
+
+#cel4 {
+    background-color: #ffffff;
+    color: #943B3B;
+}
+
+#cel5 {
+    background-color: #943B3B;
+    color: #ffffff;
+}
+
+#cel6 {
+    background-color: #e9e9e9;
+    color: #943B3B;
+}
+
+#cel7 {
+    background-color: #C77777;
+    color: #ffffff;
+}
+
+#cel8 {
+    background-color: #ffffff;
+    color: #943B3B;
+}
+
+#cel9 {
+    background-color: #943B3B;
+    color: #ffffff;
+}
+
+#cel10 {
+    background-color: #e9e9e9;
+    color: #943B3B;
+}
+
+#cel11 {
+    background-color: #C77777;
+    color: #ffffff;
+}
+
+#cel12 {
+    background-color: #ffffff;
+    color: #943B3B;
+}
+
+#cel13 {
+    background-color: #943B3B;
+    color: #ffffff;
+}
+
+#cel14 {
+    background-color: #e9e9e9;
+    color: #943B3B;
+}
+
+#cel15 {
+    background-color: #C77777;
+    color: #ffffff;
+}
+
+#cel16 {
+    background-color: #ffffff;
+    color: #943B3B;
+}
+
+#cel17 {
+    background-color: #943B3B;
+    color: #ffffff;
+}
+
+#cel18 {
+    background-color: #e9e9e9;
+    color: #943B3B;
+}
+
+#cel19 {
+    background-color: #C77777;
+    color: #ffffff;
+}
+
+#cel20 {
+    background-color: #ffffff;
+    color: #943B3B;
+} 
+
+/* Footer */
+footer {
+    background-color: #C77777;
+    font-family: Raleway, Arial, sans-serif;
+    color: #ffffff;
+    padding: 25px;
+    text-align: center;
+    width: 99%;
+}
